@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from src import data_reader
-
+from src import momentumlib
 
 def main():
     ts = data_reader.TimeSeries(
